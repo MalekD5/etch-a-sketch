@@ -1,0 +1,25 @@
+.sketch-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.container {
+      max-width: 960px;
+      max-height: 960px;
+      width: 960px;
+      display: grid;
+      align-items: center;
+      grid-gap: unset;
+      border: solid red;
+}
+
+.colored {
+      border: solid black;
+      background-color: black;
+}
+
+.buttons-container {
+      margin-bottom: 3rem;
+}
